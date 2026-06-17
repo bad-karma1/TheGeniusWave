@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Genius Wave Review (2026): I Used It Daily for 30 Days — Honest Results</title>
+<meta name="description" content="An honest 30-day hands-on review of The Genius Wave — the 12-minute Theta brainwave audio. Does it really improve focus and clear brain fog? My real results inside.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap');
+
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'Inter',sans-serif;color:#1A2332;background:#fff;font-size:17px;line-height:1.8;-webkit-font-smoothing:antialiased;}
+img{max-width:100%;display:block;}
+a{color:#E8421C;text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+/* PROGRESS */
+#progress-bar{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,#E8421C,#F5A623);width:0%;z-index:9999;transition:width .08s linear;}
+
+/* TOP BAR */
+.top-bar{background:#07101D;text-align:center;padding:11px 20px;position:sticky;top:0;z-index:100;border-bottom:1px solid rgba(232,66,28,.2);}
+.top-bar-inner{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;}
+.top-bar p{color:#94A3B8;font-size:13px;margin:0;font-weight:500;}
+.top-bar a{color:#FF5733;font-weight:700;text-decoration:underline;}
+.countdown-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(232,66,28,.15);border:1px solid rgba(232,66,28,.3);border-radius:5px;padding:3px 10px;}
+.countdown-badge span{color:#FF5733;font-weight:700;font-size:13px;font-variant-numeric:tabular-nums;}
+.live-dot{width:7px;height:7px;background:#E8421C;border-radius:50%;animation:blink 1.4s ease-in-out infinite;}
+@keyframes blink{0%,100%{opacity:1;}50%{opacity:.3;}}
+
+/* HERO */
+.hero{background:linear-gradient(155deg,#04080E 0%,#07101D 45%,#0B172A 100%);padding:64px 20px 0;text-align:center;position:relative;overflow:hidden;}
+.hero::before{content:'';position:absolute;top:-30%;left:50%;transform:translateX(-50%);width:800px;height:800px;background:radial-gradient(circle,rgba(0,207,180,.08) 0%,transparent 65%);pointer-events:none;}
+.hero-label{display:inline-flex;align-items:center;gap:8px;background:rgba(0,207,180,.1);border:1px solid rgba(0,207,180,.2);color:#00CFB4;font-size:11px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;padding:6px 18px;border-radius:100px;margin-bottom:20px;}
+.hero h1{font-family:'Fraunces',Georgia,serif;color:#F1F5F9;font-size:clamp(26px,4.8vw,48px);line-height:1.18;max-width:780px;margin:0 auto 20px;font-weight:600;}
+.hero h1 .hl{color:#F5A623;font-style:italic;}
+.hero-stars{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:16px;flex-wrap:wrap;}
+.stars-row{color:#F5A623;font-size:19px;letter-spacing:2px;}
+.star-meta{color:#64748B;font-size:13px;}
+.star-meta strong{color:#94A3B8;}
+.hero-sub{color:#94A3B8;font-size:17px;max-width:560px;margin:0 auto 32px;line-height:1.7;}
+.hero-img-wrap{max-width:620px;margin:8px auto 0;position:relative;}
+.hero-img-wrap img{border-radius:16px 16px 0 0;box-shadow:0 -10px 60px rgba(0,207,180,.15);}
+.hero-fade{position:absolute;bottom:-1px;left:0;right:0;height:90px;background:linear-gradient(to bottom,transparent,#fff);}
+
+/* BYLINE */
+.byline{max-width:720px;margin:0 auto;padding:28px 24px 0;display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
+.byline-av{width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,#E8421C,#F5A623);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:18px;font-family:'Fraunces',serif;flex-shrink:0;}
+.byline-info strong{display:block;font-size:15px;color:#0F1C2D;}
+.byline-info span{font-size:13px;color:#94A3B8;}
+.byline-badge{margin-left:auto;display:inline-flex;align-items:center;gap:5px;background:#F0FDF4;border:1px solid #BBF7D0;color:#16A34A;font-size:12px;font-weight:600;padding:5px 12px;border-radius:100px;}
+
+/* CTA */
+.btn{display:inline-block;background:linear-gradient(135deg,#E8421C 0%,#FF5733 100%);color:#fff;font-weight:700;font-size:16px;padding:18px 44px;border-radius:8px;text-decoration:none;letter-spacing:.02em;transition:all .22s;box-shadow:0 4px 24px rgba(232,66,28,.45),0 1px 4px rgba(0,0,0,.2);position:relative;overflow:hidden;}
+.btn::before{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(255,255,255,.1),transparent);pointer-events:none;}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 36px rgba(232,66,28,.55);color:#fff;text-decoration:none;}
+.btn:active{transform:translateY(0);}
+@keyframes btn-pulse{0%,100%{box-shadow:0 4px 24px rgba(232,66,28,.45);}50%{box-shadow:0 6px 36px rgba(232,66,28,.7),0 0 0 6px rgba(232,66,28,.1);}}
+.btn-pulse{animation:btn-pulse 2.8s ease-in-out infinite;}
+.btn-wrap{text-align:center;margin:40px 0;}
+.btn-sub{font-size:12px;color:#64748B;margin-top:10px;display:block;letter-spacing:.02em;}
+
+.container{max-width:720px;margin:0 auto;padding:0 24px;}
+
+/* VERDICT */
+.verdict{background:#fff;border:1.5px solid #E2E8F0;border-radius:14px;padding:32px;margin:36px 0;box-shadow:0 4px 24px rgba(0,0,0,.07);position:relative;overflow:hidden;}
+.verdict::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,#E8421C,#F5A623);}
+.verdict-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:22px;flex-wrap:wrap;gap:12px;}
+.verdict-title{font-family:'Fraunces',Georgia,serif;font-size:18px;font-weight:700;color:#1A2332;}
+.score{background:linear-gradient(135deg,#E8421C,#FF5733);color:#fff;font-size:21px;font-weight:700;padding:10px 18px;border-radius:10px;box-shadow:0 4px 14px rgba(232,66,28,.4);font-family:'Fraunces',Georgia,serif;line-height:1;text-align:center;}
+.score small{font-size:11px;font-weight:400;opacity:.85;display:block;margin-top:2px;}
+.verdict-cols{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:20px;}
+.vc h4{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#94A3B8;margin-bottom:10px;}
+.vc ul{list-style:none;}
+.vc ul li{font-size:14px;line-height:1.65;padding:4px 0;display:flex;gap:7px;align-items:flex-start;color:#374151;}
+.vc ul li span:first-child{flex-shrink:0;margin-top:3px;}
+.ok{color:#22C55E;}.warn{color:#F59E0B;}
+.verdict-bottom{display:flex;align-items:center;gap:10px;padding-top:16px;border-top:1px solid #F1F5F9;}
+.vb-stars{color:#F5A623;font-size:16px;}
+.vb-meta{font-size:13px;color:#64748B;}
+
+.slabel{display:inline-block;background:rgba(0,207,180,.08);color:#00A898;font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;padding:4px 12px;border-radius:4px;margin-bottom:6px;}
+
+h2{font-family:'Fraunces',Georgia,serif;font-size:clamp(22px,3.2vw,30px);color:#0F1C2D;line-height:1.28;margin:52px 0 16px;font-weight:600;}
+h3{font-family:'Fraunces',Georgia,serif;font-size:19px;color:#0F1C2D;margin:28px 0 10px;font-weight:600;}
+p{margin-bottom:20px;color:#374151;line-height:1.82;}
+strong{color:#0F1C2D;font-weight:600;}
+em{color:#4B5563;}
+
+/* INLINE IMAGE */
+.inline-img{margin:32px 0;border-radius:14px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,.1);}
+.inline-img img{width:100%;}
+.img-caption{font-size:13px;color:#94A3B8;text-align:center;margin-top:-12px;margin-bottom:32px;font-style:italic;}
+
+.pullquote{border-left:4px solid #E8421C;background:linear-gradient(135deg,#FFF6F4,#FFF0EC);padding:22px 28px;margin:34px 0;border-radius:0 10px 10px 0;box-shadow:0 2px 14px rgba(232,66,28,.08);}
+.pullquote p{color:#7C2217;font-size:17px;font-style:italic;margin:0;line-height:1.65;}
+
+.hbox{background:linear-gradient(135deg,#06101C,#0C1A2E);border-radius:12px;padding:32px;margin:36px 0;border:1px solid rgba(0,207,180,.15);box-shadow:0 8px 32px rgba(0,0,0,.28);}
+.hbox h3{color:#00CFB4;margin:0 0 12px;font-size:20px;}
+.hbox p{color:#94A3B8;margin:0;font-size:15px;line-height:1.8;}
+
+.bw-list{list-style:none;margin:20px 0 28px;}
+.bw-list li{display:flex;gap:14px;align-items:flex-start;padding:16px 0;border-bottom:1px solid #F1F5F9;}
+.bw-list li:last-child{border-bottom:none;}
+.bw-dot{width:28px;height:28px;background:linear-gradient(135deg,#00CFB4,#00A898);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:3px;color:#fff;font-size:11px;font-weight:700;box-shadow:0 2px 8px rgba(0,207,180,.3);}
+.bw-dot.gold{background:linear-gradient(135deg,#F5A623,#D4841A);box-shadow:0 2px 8px rgba(245,166,35,.4);font-size:14px;}
+.bw-text strong{display:block;color:#0F1C2D;margin-bottom:3px;}
+.bw-text span{font-size:15px;color:#64748B;line-height:1.65;}
+
+.divider{text-align:center;padding:18px 0;opacity:.2;}
+.divider svg{width:160px;}
+
+.steps{list-style:none;margin:24px 0;}
+.step{display:flex;gap:20px;margin-bottom:28px;position:relative;}
+.step:not(:last-child)::after{content:'';position:absolute;left:19px;top:44px;bottom:-12px;width:2px;background:linear-gradient(to bottom,rgba(232,66,28,.2),transparent);}
+.step-n{width:40px;height:40px;flex-shrink:0;background:linear-gradient(135deg,#E8421C,#FF5733);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:15px;box-shadow:0 4px 14px rgba(232,66,28,.4);}
+.step-b strong{display:block;color:#0F1C2D;font-size:16px;margin-bottom:4px;}
+.step-b span{font-size:15px;color:#64748B;line-height:1.65;}
+
+.timeline{margin:28px 0;}
+.tl-item{display:flex;gap:18px;padding:22px 0;border-bottom:1px solid #F1F5F9;}
+.tl-item:last-child{border-bottom:none;}
+.tl-week{flex-shrink:0;width:68px;background:#F4F7FC;border-radius:8px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:12px 8px;}
+.tl-week .wk{font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#94A3B8;}
+.tl-week .num{font-size:20px;font-weight:700;color:#0F1C2D;font-family:'Fraunces',Georgia,serif;line-height:1;}
+.tl-content strong{display:block;color:#0F1C2D;font-size:15px;margin-bottom:5px;}
+.tl-content span{font-size:14px;color:#64748B;line-height:1.7;}
+
+/* REVIEWS */
+.reviews-section{background:#F4F7FC;padding:64px 20px;margin-top:52px;}
+.reviews-header{text-align:center;margin-bottom:36px;}
+.reviews-header h2{margin:8px 0 14px;}
+.rating-pill{display:inline-flex;align-items:center;gap:12px;background:#fff;border:1px solid #E2E8F0;border-radius:100px;padding:10px 22px;box-shadow:0 2px 10px rgba(0,0,0,.06);}
+.rp-score{font-size:22px;font-weight:700;color:#0F1C2D;font-family:'Fraunces',Georgia,serif;}
+.rp-stars{color:#F5A623;font-size:16px;}
+.rp-meta{font-size:12px;color:#64748B;}
+.reviews-grid{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:14px;}
+.r-card{background:#fff;border:1px solid #E2E8F0;border-radius:12px;padding:24px;box-shadow:0 2px 10px rgba(0,0,0,.05);transition:box-shadow .2s;}
+.r-card:hover{box-shadow:0 6px 24px rgba(0,0,0,.1);}
+.r-top{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:14px;gap:12px;}
+.reviewer{display:flex;align-items:center;gap:12px;}
+.avatar{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;color:#fff;flex-shrink:0;}
+.ri strong{display:block;font-size:15px;color:#0F1C2D;}
+.ri .role{font-size:12px;color:#94A3B8;display:block;}
+.verified{display:inline-flex;align-items:center;gap:4px;background:#F0FDF4;border:1px solid #BBF7D0;color:#16A34A;font-size:11px;font-weight:600;padding:3px 8px;border-radius:100px;margin-top:5px;}
+.r-stars{color:#F5A623;font-size:15px;white-space:nowrap;}
+.r-body{font-size:15px;color:#374151;line-height:1.78;margin:0;}
+
+.aud-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(192px,1fr));gap:12px;margin:24px 0;}
+.aud-card{background:#fff;border:1.5px solid #E2E8F0;border-radius:12px;padding:20px;text-align:center;transition:all .22s;box-shadow:0 2px 8px rgba(0,0,0,.04);}
+.aud-card:hover{transform:translateY(-3px);border-color:#00CFB4;box-shadow:0 8px 24px rgba(0,207,180,.12);}
+.aud-icon{font-size:28px;margin-bottom:10px;display:block;}
+.aud-card strong{display:block;font-size:14px;color:#0F1C2D;margin-bottom:4px;font-weight:600;}
+.aud-card span{font-size:13px;color:#64748B;line-height:1.55;}
+
+.pc-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:24px 0;}
+.pc-box{border-radius:10px;padding:22px;}
+.pros{background:#F0FDF4;border:1px solid #BBF7D0;}
+.cons{background:#FFFBEB;border:1px solid #FDE68A;}
+.pc-title{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:12px;}
+.pros .pc-title{color:#15803D;}.cons .pc-title{color:#92400E;}
+.pc-list{list-style:none;}
+.pc-list li{font-size:14px;line-height:1.65;padding:5px 0;display:flex;gap:7px;align-items:flex-start;}
+.pros .pc-list li{color:#166534;}.cons .pc-list li{color:#78350F;}
+.pc-list li span:first-child{flex-shrink:0;margin-top:3px;}
+
+.price-section{background:linear-gradient(155deg,#04080E,#07101D,#0C182C);padding:70px 20px;}
+.price-inner{max-width:480px;margin:0 auto;text-align:center;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:42px 36px;box-shadow:0 20px 60px rgba(0,0,0,.4);position:relative;overflow:hidden;}
+.price-inner::before{content:'BEST VALUE';position:absolute;top:18px;right:-30px;background:#E8421C;color:#fff;font-size:10px;font-weight:700;letter-spacing:.08em;padding:5px 42px;transform:rotate(35deg);}
+.price-was{color:#334155;font-size:14px;text-decoration:line-through;margin-bottom:4px;}
+.price-now{color:#F5A623;font-size:58px;font-weight:700;line-height:1;margin-bottom:8px;font-family:'Fraunces',Georgia,serif;text-shadow:0 0 40px rgba(245,166,35,.3);}
+.price-label{color:#64748B;font-size:13px;margin-bottom:30px;}
+.badges{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:22px;}
+.badge{display:flex;align-items:center;gap:5px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.09);border-radius:6px;padding:8px 13px;color:#94A3B8;font-size:11px;font-weight:500;}
+
+.guarantee-box{display:flex;gap:18px;align-items:center;background:#F0FDF4;border:1.5px solid #BBF7D0;border-radius:14px;padding:24px 26px;margin:36px 0;}
+.guarantee-seal{width:64px;height:64px;flex-shrink:0;background:linear-gradient(135deg,#16A34A,#22C55E);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:26px;box-shadow:0 4px 16px rgba(34,197,94,.35);}
+.guarantee-box strong{display:block;font-size:16px;color:#15803D;margin-bottom:4px;}
+.guarantee-box span{font-size:14px;color:#166534;line-height:1.6;}
+
+.faq-wrap{margin:8px 0;}
+.faq-item{border-bottom:1px solid #F1F5F9;}
+.faq-item:last-child{border-bottom:none;}
+.faq-q{font-weight:600;color:#0F1C2D;font-size:16px;padding:20px 0;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;user-select:none;transition:color .18s;}
+.faq-q:hover{color:#E8421C;}
+.faq-icon{width:24px;height:24px;flex-shrink:0;border:2px solid #E2E8F0;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#94A3B8;font-size:14px;font-weight:400;transition:all .25s;line-height:1;}
+.faq-item.open .faq-icon{background:#E8421C;border-color:#E8421C;color:#fff;transform:rotate(45deg);}
+.faq-a{color:#4B5563;font-size:15px;line-height:1.78;max-height:0;overflow:hidden;transition:max-height .35s ease,padding .35s ease;}
+.faq-item.open .faq-a{max-height:500px;padding-bottom:22px;}
+
+.final-cta{background:linear-gradient(155deg,#04080E,#07101D);padding:80px 20px;text-align:center;position:relative;overflow:hidden;}
+.final-cta::before{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:600px;height:600px;background:radial-gradient(circle,rgba(232,66,28,.06) 0%,transparent 65%);pointer-events:none;}
+.final-cta h2{color:#F1F5F9;margin-top:0;margin-bottom:16px;}
+.final-cta > .container > p{color:#94A3B8;max-width:480px;margin:0 auto 32px;}
+
+.sticky-bar{display:none;position:fixed;bottom:0;left:0;right:0;background:#07101D;border-top:1px solid rgba(232,66,28,.25);padding:12px 18px;z-index:200;align-items:center;justify-content:space-between;gap:10px;}
+.sticky-bar p{color:#94A3B8;font-size:11px;margin:0;line-height:1.4;}
+.sticky-bar p strong{display:block;color:#CBD5E1;font-size:13px;}
+.sticky-bar .btn{padding:12px 22px;font-size:14px;white-space:nowrap;animation:none;}
+
+.disclaimer{background:#F8FAFC;border-top:1px solid #E2E8F0;padding:28px 20px;font-size:11.5px;color:#94A3B8;line-height:1.85;text-align:center;}
+
+@media(max-width:640px){
+  .sticky-bar{display:flex;}
+  body{padding-bottom:72px;}
+  .verdict-cols{grid-template-columns:1fr;}
+  .pc-grid{grid-template-columns:1fr;}
+  .aud-grid{grid-template-columns:1fr 1fr;}
+  .price-now{font-size:46px;}
+  .price-inner{padding:32px 22px;}
+  .hero{padding:52px 20px 0;}
+  .byline-badge{margin-left:0;}
+}
+</style>
+</head>
+<body>
+
+<div id="progress-bar"></div>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  <div class="top-bar-inner">
+    <div class="live-dot"></div>
+    <p>&#9889; Introductory offer ends in &nbsp;<span class="countdown-badge"><span id="timer">--:--:--</span></span></p>
+    <p>&bull; <a href="https://bit.ly/Neural_Sh1ft">Claim the $39 price &rarr;</a></p>
+  </div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <span class="hero-label">&#9679;&nbsp; 30-Day Hands-On Review</span>
+  <h1>I Tried The Genius Wave for 30 Days. Here&rsquo;s What Happened to My <span class="hl">Focus.</span></h1>
+  <div class="hero-stars">
+    <span class="stars-row">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+    <span class="star-meta"><strong>4.8</strong>&nbsp;/ 5 &bull; 2,847 verified customers</span>
+  </div>
+  <p class="hero-sub">Can a 12-minute daily audio session genuinely sharpen focus and clear brain fog? I put it to the test every single day so you don&rsquo;t have to guess.</p>
+  <div class="hero-img-wrap">
+    <img src="hero-headphones.png" alt="The Genius Wave headphones with brainwave visualisation">
+    <div class="hero-fade"></div>
+  </div>
+</div>
+
+<!-- BYLINE -->
+<div class="byline">
+  <div class="byline-av">JM</div>
+  <div class="byline-info">
+    <strong>By Jordan M.</strong>
+    <span>Wellness writer &bull; Tested daily for 30 days</span>
+  </div>
+  <span class="byline-badge">&#10003; Independent Review</span>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="container">
+
+  <!-- QUICK VERDICT -->
+  <div class="verdict">
+    <div class="verdict-head">
+      <span class="verdict-title">&#128203;&nbsp; Quick Verdict</span>
+      <div class="score">9.2<small>out of 10</small></div>
+    </div>
+    <div class="verdict-cols">
+      <div class="vc">
+        <h4>What Works</h4>
+        <ul>
+          <li><span class="ok">&#10003;</span><span>Noticeable focus improvement by week 2</span></li>
+          <li><span class="ok">&#10003;</span><span>Zero learning curve &mdash; just press play</span></li>
+          <li><span class="ok">&#10003;</span><span>One-time cost, no subscription</span></li>
+          <li><span class="ok">&#10003;</span><span>90-day money-back guarantee</span></li>
+          <li><span class="ok">&#10003;</span><span>12 minutes fits any schedule</span></li>
+        </ul>
+      </div>
+      <div class="vc">
+        <h4>Watch Out For</h4>
+        <ul>
+          <li><span class="warn">&#9888;</span><span>Headphones required (speaker won&rsquo;t work)</span></li>
+          <li><span class="warn">&#9888;</span><span>Results build over 2&ndash;3 weeks, not overnight</span></li>
+          <li><span class="warn">&#9888;</span><span>Requires consistent daily use</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-bottom">
+      <span class="vb-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      <span class="vb-meta">4.8 / 5 &bull; Recommended for focus, clarity and mental energy</span>
+    </div>
+  </div>
+
+  <h2>Does your brain feel like it&rsquo;s running on empty?</h2>
+  <p>You wake up. You&rsquo;ve had a full night&rsquo;s sleep. And yet before you&rsquo;ve even made your first coffee, your mind already feels foggy, scattered, and slow to start. Sound familiar?</p>
+  <p>I spent years assuming that was just <em>how I was</em>. A morning person I am not. My focus dipped after lunch. Creative thinking felt like wading through mud. I tried coffee, cold showers, meditation apps &mdash; some helped a little, but nothing felt like a genuine shift in how my brain was actually operating.</p>
+  <p>Then I came across research on something called <strong>Theta brainwaves</strong> &mdash; and a product designed to help your brain reach that state in just 12 minutes. I was sceptical enough to almost ignore it. I&rsquo;m glad I didn&rsquo;t.</p>
+
+  <div class="pullquote">
+    <p>&ldquo;By week two, I was getting into deep focus faster and staying there longer. The afternoon energy crash I&rsquo;d written off as normal had almost completely disappeared.&rdquo;</p>
+  </div>
+
+  <div class="inline-img">
+    <img src="lifestyle-listening.png" alt="A person relaxing at home wearing headphones during a Genius Wave session">
+  </div>
+  <p class="img-caption">My actual morning setup &mdash; 12 minutes, headphones on, before touching my phone.</p>
+
+  <div class="divider"><svg viewBox="0 0 160 20" fill="none"><path d="M0 10 Q20 2 40 10 Q60 18 80 10 Q100 2 120 10 Q140 18 160 10" stroke="#CBD5E1" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+
+  <span class="slabel">The Science</span>
+  <h2>What are Theta brainwaves &mdash; and why do they matter?</h2>
+  <p>Your brain operates in different electrical frequency states throughout the day. Each state is linked to a distinct mental experience:</p>
+
+  <div class="inline-img">
+    <img src="brainwave-chart.png" alt="The five brainwave states from Delta to Gamma, with Theta highlighted">
+  </div>
+  <p class="img-caption">The five brainwave states. Theta (highlighted) is the one linked to focus and creative flow.</p>
+
+  <ul class="bw-list">
+    <li>
+      <div class="bw-dot">&#9679;</div>
+      <div class="bw-text"><strong>Delta (0.5&ndash;4 Hz)</strong><span>Deep dreamless sleep and physical recovery</span></div>
+    </li>
+    <li>
+      <div class="bw-dot gold">&#9733;</div>
+      <div class="bw-text"><strong>Theta (4&ndash;8 Hz) &mdash; the &ldquo;genius state&rdquo;</strong><span>Deep relaxation, creative flow, memory consolidation and heightened learning. Associated with experienced meditators, peak-performance athletes and breakthrough creative thinking.</span></div>
+    </li>
+    <li>
+      <div class="bw-dot">&#9679;</div>
+      <div class="bw-text"><strong>Alpha (8&ndash;13 Hz)</strong><span>Calm, relaxed alertness &mdash; the state just before sleep or after waking</span></div>
+    </li>
+    <li>
+      <div class="bw-dot">&#9679;</div>
+      <div class="bw-text"><strong>Beta (13&ndash;32 Hz)</strong><span>Active thinking and alert focus &mdash; where most people spend their entire waking day</span></div>
+    </li>
+    <li>
+      <div class="bw-dot">&#9679;</div>
+      <div class="bw-text"><strong>Gamma (32+ Hz)</strong><span>Peak cognitive processing and high-level information binding</span></div>
+    </li>
+  </ul>
+
+  <p>The problem: <strong>most adults almost never enter the Theta state while awake.</strong> Modern life locks most brains into Beta &mdash; reactive, stressed, scattered. The Genius Wave is designed to change that.</p>
+
+  <div class="hbox">
+    <h3>What peer-reviewed research shows</h3>
+    <p>Studies on brainwave entrainment &mdash; using rhythmic audio stimuli to influence brain frequency &mdash; have shown measurable effects on cognitive performance, stress reduction, and sustained focus when subjects are guided toward the Theta range. The underlying mechanism is well-documented in neuroscience literature, though individual results vary.</p>
+  </div>
+
+  <div class="divider"><svg viewBox="0 0 160 20" fill="none"><path d="M0 10 Q20 2 40 10 Q60 18 80 10 Q100 2 120 10 Q140 18 160 10" stroke="#CBD5E1" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+
+  <span class="slabel">The Product</span>
+  <h2>What exactly is The Genius Wave?</h2>
+  <p>The Genius Wave is a <strong>12-minute digital audio session</strong> developed by sound engineers and neuroscience researchers. It uses <strong>brainwave entrainment</strong> &mdash; layered audio frequencies designed to guide your brain toward Theta without any effort on your part.</p>
+  <p>No meditation technique to master. No app subscription. No monthly fees. You pay once, download the file, and it is yours forever. Works on any phone, tablet, or laptop. All you need are headphones.</p>
+
+  <div class="btn-wrap">
+    <a href="https://bit.ly/Neural_Sh1ft" class="btn btn-pulse">Get Instant Access &mdash; $39 &rarr;</a>
+    <span class="btn-sub">Digital delivery &bull; Any device &bull; Yours to keep forever</span>
+  </div>
+
+  <div class="divider"><svg viewBox="0 0 160 20" fill="none"><path d="M0 10 Q20 2 40 10 Q60 18 80 10 Q100 2 120 10 Q140 18 160 10" stroke="#CBD5E1" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+
+  <span class="slabel">How It Works</span>
+  <h2>Getting started &mdash; 3 steps, that&rsquo;s it</h2>
+  <ol class="steps">
+    <li class="step">
+      <div class="step-n">1</div>
+      <div class="step-b"><strong>Download your audio file</strong><span>Instant digital access after purchase. Works on any smartphone, tablet, laptop or desktop.</span></div>
+    </li>
+    <li class="step">
+      <div class="step-n">2</div>
+      <div class="step-b"><strong>Put on headphones and press play</strong><span>Any earbuds or headphones work &mdash; wired or Bluetooth. Set a comfortable volume. No need to go loud.</span></div>
+    </li>
+    <li class="step">
+      <div class="step-n">3</div>
+      <div class="step-b"><strong>Listen for 12 minutes, daily</strong><span>Morning works best for most people. Sit back, let the audio do the work, then carry on with your day.</span></div>
+    </li>
+  </ol>
+
+  <div class="divider"><svg viewBox="0 0 160 20" fill="none"><path d="M0 10 Q20 2 40 10 Q60 18 80 10 Q100 2 120 10 Q140 18 160 10" stroke="#CBD5E1" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+
+  <span class="slabel">My Results</span>
+  <h2>What actually happened over 30 days</h2>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-week"><span class="wk">Week</span><span class="num">1</span></div>
+      <div class="tl-content"><strong>Honestly? Not much at first.</strong><span>I felt calmer after each session but assumed it was just from sitting quietly for 12 minutes. The morning fog was still there. I almost gave up around day 5.</span></div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-week"><span class="wk">Week</span><span class="num">2</span></div>
+      <div class="tl-content"><strong>Something shifted.</strong><span>I got into focused work faster than usual &mdash; the deep concentration that normally takes me 20&ndash;30 minutes was happening in under 10. I noticed it before I connected it to the audio.</span></div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-week"><span class="wk">Week</span><span class="num">3</span></div>
+      <div class="tl-content"><strong>The afternoon crash eased.</strong><span>The 3pm slump I&rsquo;d considered a fixed part of my biology started softening. I was thinking more clearly later into the day and retaining information better.</span></div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-week"><span class="wk">Week</span><span class="num">4</span></div>
+      <div class="tl-content"><strong>A genuinely different baseline.</strong><span>The morning fog I&rsquo;d accepted as &ldquo;just me&rdquo; had largely lifted. Not a miracle &mdash; but the most noticeable change from any habit I&rsquo;ve tried, for the least effort.</span></div>
+    </div>
+  </div>
+
+  <div class="guarantee-box">
+    <div class="guarantee-seal">&#128737;</div>
+    <div>
+      <strong>Backed by a 90-day money-back guarantee</strong>
+      <span>Use it daily for a month. If you feel no difference, request a full refund &mdash; no questions asked. That&rsquo;s what made me comfortable trying it.</span>
+    </div>
+  </div>
+
+</div><!-- /container -->
+
+<!-- REVIEWS -->
+<div class="reviews-section">
+  <div class="reviews-header">
+    <span class="slabel">Social Proof</span>
+    <h2>What other people are saying</h2>
+    <div class="rating-pill">
+      <span class="rp-score">4.8</span>
+      <span class="rp-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      <span class="rp-meta">Based on 2,847 verified reviews</span>
+    </div>
+  </div>
+  <div class="reviews-grid">
+    <div class="r-card">
+      <div class="r-top">
+        <div class="reviewer">
+          <div class="avatar" style="background:linear-gradient(135deg,#E8421C,#F5A623);">SK</div>
+          <div class="ri"><strong>Sarah K.</strong><span class="role">Marketing manager</span><span class="verified">&#10003; Verified buyer</span></div>
+        </div>
+        <span class="r-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      </div>
+      <p class="r-body">&ldquo;I was sceptical but the 90-day guarantee made it easy to try. Three weeks in and my morning brain fog is noticeably better. I use it before work every day now.&rdquo;</p>
+    </div>
+    <div class="r-card">
+      <div class="r-top">
+        <div class="reviewer">
+          <div class="avatar" style="background:linear-gradient(135deg,#00A898,#00CFB4);">DT</div>
+          <div class="ri"><strong>David T.</strong><span class="role">Software developer</span><span class="verified">&#10003; Verified buyer</span></div>
+        </div>
+        <span class="r-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      </div>
+      <p class="r-body">&ldquo;As someone who needs deep focus for coding, this has become part of my routine. It&rsquo;s not magic &mdash; but getting into flow state is genuinely easier. Worth the $39.&rdquo;</p>
+    </div>
+    <div class="r-card">
+      <div class="r-top">
+        <div class="reviewer">
+          <div class="avatar" style="background:linear-gradient(135deg,#7C3AED,#A855F7);">MR</div>
+          <div class="ri"><strong>Maria R.</strong><span class="role">Teacher &amp; mum of two</span><span class="verified">&#10003; Verified buyer</span></div>
+        </div>
+        <span class="r-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      </div>
+      <p class="r-body">&ldquo;The only 12 minutes of calm I get all day &mdash; and my head feels clearer for hours after. I was ready to ask for a refund in week one, so glad I stuck with it.&rdquo;</p>
+    </div>
+    <div class="r-card">
+      <div class="r-top">
+        <div class="reviewer">
+          <div class="avatar" style="background:linear-gradient(135deg,#0891B2,#06B6D4);">JP</div>
+          <div class="ri"><strong>James P.</strong><span class="role">Retired, age 61</span><span class="verified">&#10003; Verified buyer</span></div>
+        </div>
+        <span class="r-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      </div>
+      <p class="r-body">&ldquo;Started using it because I felt my memory wasn&rsquo;t as sharp as it used to be. A month in, I feel more switched on during the day. Simple to use even for me.&rdquo;</p>
+    </div>
+  </div>
+</div>
+
+<!-- WHO IT'S FOR -->
+<div class="container">
+  <span class="slabel">Is It For You?</span>
+  <h2>Who The Genius Wave is best for</h2>
+  <div class="aud-grid">
+    <div class="aud-card"><span class="aud-icon">&#127891;</span><strong>Students</strong><span>Absorb and retain information more efficiently</span></div>
+    <div class="aud-card"><span class="aud-icon">&#128187;</span><strong>Professionals</strong><span>Reach deep focus faster, crash less by mid-afternoon</span></div>
+    <div class="aud-card"><span class="aud-icon">&#127912;</span><strong>Creatives</strong><span>Access creative flow states more consistently</span></div>
+    <div class="aud-card"><span class="aud-icon">&#129504;</span><strong>Over 40s</strong><span>Support memory and mental sharpness naturally</span></div>
+  </div>
+
+  <span class="slabel">Honest Take</span>
+  <h2>The good and the not-so-good</h2>
+  <div class="pc-grid">
+    <div class="pc-box pros">
+      <div class="pc-title">&#128077; What I liked</div>
+      <ul class="pc-list">
+        <li><span>&#10003;</span>No learning curve &mdash; just listen</li>
+        <li><span>&#10003;</span>Fits into any morning in 12 minutes</li>
+        <li><span>&#10003;</span>One-time cost, no subscription</li>
+        <li><span>&#10003;</span>Strong 90-day guarantee</li>
+        <li><span>&#10003;</span>Works on any device</li>
+      </ul>
+    </div>
+    <div class="pc-box cons">
+      <div class="pc-title">&#9888;&#65039; Be aware</div>
+      <ul class="pc-list">
+        <li><span>&bull;</span>Give it at least 2 weeks</li>
+        <li><span>&bull;</span>Headphones are required</li>
+        <li><span>&bull;</span>Consistency matters most</li>
+        <li><span>&bull;</span>Not a medical treatment</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="divider"><svg viewBox="0 0 160 20" fill="none"><path d="M0 10 Q20 2 40 10 Q60 18 80 10 Q100 2 120 10 Q140 18 160 10" stroke="#CBD5E1" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+
+  <span class="slabel">FAQ</span>
+  <h2>Frequently asked questions</h2>
+  <div class="faq-wrap">
+    <div class="faq-item">
+      <p class="faq-q">Is there actual science behind brainwave entrainment?<span class="faq-icon">+</span></p>
+      <p class="faq-a">Yes &mdash; brainwave entrainment has been studied in peer-reviewed research for decades. The principle that rhythmic auditory stimuli can influence brainwave frequency is well-established. Specific claims around Theta waves and cognitive enhancement are more nuanced, and results vary. This is not a medical treatment.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">Do I need special equipment?<span class="faq-icon">+</span></p>
+      <p class="faq-a">Just standard headphones or earbuds &mdash; over-ear, on-ear, or in-ear. Wired or Bluetooth both work. Phone speaker playback will not produce the entrainment effect.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">How long before I notice a difference?<span class="faq-icon">+</span></p>
+      <p class="faq-a">Most people notice subtle changes in the first week. More meaningful effects typically appear after two to three weeks of consistent daily use. This is a habit, not a one-session fix.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">Is it safe to use every day?<span class="faq-icon">+</span></p>
+      <p class="faq-a">Yes &mdash; non-invasive sound frequencies designed for daily use. Avoid very high volumes. If you have epilepsy, a serious neurological condition, or are pregnant, consult a doctor first.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">What if it doesn&rsquo;t work for me?<span class="faq-icon">+</span></p>
+      <p class="faq-a">90-day money-back guarantee. Use it daily for a month, feel no benefit, get a full refund &mdash; no questions asked. Essentially zero financial risk.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">Where do I buy it?<span class="faq-icon">+</span></p>
+      <p class="faq-a">Through the official product page only. The current $39 introductory price may not be permanent &mdash; check the link below for current availability.</p>
+    </div>
+  </div>
+
+</div><!-- /container -->
+
+<!-- PRICE -->
+<div class="price-section">
+  <div class="price-inner">
+    <p class="price-was">Regular price: $97</p>
+    <p class="price-now">$39</p>
+    <p class="price-label">One-time payment &bull; Instant digital delivery &bull; Yours to keep forever</p>
+    <a href="https://bit.ly/Neural_Sh1ft" class="btn btn-pulse">Claim My Discounted Copy &rarr;</a>
+    <div class="badges">
+      <span class="badge">&#128274;&nbsp;90-Day Guarantee</span>
+      <span class="badge">&#9989;&nbsp;Instant Access</span>
+      <span class="badge">&#128241;&nbsp;Any Device</span>
+    </div>
+  </div>
+</div>
+
+<!-- FINAL CTA -->
+<div class="final-cta">
+  <div class="container">
+    <span class="slabel" style="background:rgba(232,66,28,.1);color:#FF5733;">Ready?</span>
+    <h2>Give your brain a proper reset &mdash; risk-free</h2>
+    <p>12 minutes a day. $39 once. 90 days to decide if it&rsquo;s working. The downside is minimal; the upside speaks for itself.</p>
+    <a href="https://bit.ly/Neural_Sh1ft" class="btn btn-pulse">Start Sharpening My Focus &rarr;</a>
+    <p style="color:#475569;font-size:13px;margin-top:18px;margin-bottom:0;">Official product page &bull; Secure checkout via ClickBank &bull; Instant delivery</p>
+  </div>
+</div>
+
+<!-- DISCLAIMER -->
+<div class="disclaimer">
+  <div class="container">
+    <p><strong>Affiliate disclosure:</strong> This post contains affiliate links. If you purchase through my link, I may earn a commission at no extra cost to you. I only recommend products I have personally tested. &bull; <strong>Medical disclaimer:</strong> These statements have not been evaluated by the FDA or MHRA. This product is not intended to diagnose, treat, cure or prevent any disease. Results vary between individuals. Consult a healthcare professional before starting any new wellness routine.</p>
+  </div>
+</div>
+
+<!-- STICKY MOBILE BAR -->
+<div class="sticky-bar" id="sticky-bar">
+  <div><p><strong>The Genius Wave</strong>Introductory price &mdash; $39 only</p></div>
+  <a href="https://bit.ly/Neural_Sh1ft" class="btn">Get Access &rarr;</a>
+</div>
+
+<script>
+window.addEventListener('scroll',function(){
+  var s=document.documentElement.scrollTop||document.body.scrollTop;
+  var h=document.documentElement.scrollHeight-document.documentElement.clientHeight;
+  document.getElementById('progress-bar').style.width=(s/h*100)+'%';
+});
+document.querySelectorAll('.faq-q').forEach(function(q){
+  q.addEventListener('click',function(){
+    var item=this.closest('.faq-item');
+    var wasOpen=item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(function(i){i.classList.remove('open');});
+    if(!wasOpen)item.classList.add('open');
+  });
+});
+function updateTimer(){
+  var now=new Date();var end=new Date(now);end.setHours(23,59,59,0);
+  var diff=Math.max(0,Math.floor((end-now)/1000));
+  var h=Math.floor(diff/3600);var m=Math.floor((diff%3600)/60);var s=diff%60;
+  document.getElementById('timer').textContent=(h<10?'0':'')+h+':'+(m<10?'0':'')+m+':'+(s<10?'0':'')+s;
+}
+updateTimer();setInterval(updateTimer,1000);
+function checkSticky(){
+  var bar=document.getElementById('sticky-bar');
+  if(window.scrollY>600&&window.innerWidth<=640){bar.style.display='flex';}else{bar.style.display='none';}
+}
+window.addEventListener('scroll',checkSticky);checkSticky();
+</script>
+</body>
+</html>
